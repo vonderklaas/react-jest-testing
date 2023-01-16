@@ -1,0 +1,43 @@
+.container {
+  max-width: 200px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+  border: none;
+  appearance: none;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+form button {
+  padding: 10px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 10px;
+}
+
+form button:disabled {
+  background-color: grey;
+  color: gainsboro;
+}
